@@ -6,44 +6,52 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="img/favicon.ico">
     <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100;300;400;500;700;900&family=Noto+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
 </head>
 <body>
     <!-- ここからheader -->
     <header>
-        <div class="container">
-            <h1 class="site_title"><a href="#"><img src="img/logo (2).svg" alt="site_title"></a></h1>
-            <nav>
+        <div class="header container">
+            <h1 class="site_title">
+                <a href="#"><img src="img/logo (2).svg" alt="site_title"></a>
+            </h1>
+        </div>
+        <nav>
+            <div class="container">
                 <ul>
                     <li><a href="#">NEW</a></li>
                     <li><a href="#">COLUMN</a></li>
                     <li><a href="#">SERIES</a></li>
-                    <li><a href="#">Q&A</a></li>
+                    <li><a href="#">Q&amp;A</a></li>
                     <li><a href="#">CONTACT</a></li>
                 </ul>
-            </nav>
-        </div>
+            </div>
+        </nav>
     </header>
     <!-- ここからpickup -->
     <div class="pickup">
         <div class="container">
             <article>
-                <img src="" alt="">
+                <img src="img/pickup1.jpg" alt="">
                 <h2 class="pickup_title">タイトルテキストテキストテキストテキストテキストテキストテキスト</h2>
-                <p class="pickup readmore">READ MORE</p>
+                <p class="readmore"><a>READ MORE</a></p>
             </article>
-                <img src="" alt="">
+            <article>
+                <img src="img/pickup2.jpg" alt="">
                 <h2 class="pickup_title">タイトルテキストテキストテキストテキストテキストテキストテキスト</h2>
-                <p class="pickup readmore">READ MORE</p>
+                <p class="readmore"><a>READ MORE</a></p>
             </article>
-                <img src="" alt="">
+            <article>
+                <img src="img/pickup3.jpg" alt="">
                 <h2 class="pickup_title">タイトルテキストテキストテキストテキストテキストテキストテキスト</h2>
-                <p class="pickup readmore">READ MORE</p>
+                <p class="readmore"><a>READ MORE</a></p>
             </article>
         </div>
     </div>
     <!-- ここからmain -->
-    <div class="container">
+    <div class="main_container">
         <main>
             <article class="main_article">
                 <h2 class="main_h">タイトルテキストテキストテキストテキストテキスト</h2>
@@ -51,7 +59,7 @@
                     <li class="date">2020/01/01</liｃ>
                     <li class="categoly">カテゴリー</li>
                 </ul>
-                <img src="#" alt="">
+                <img src="img/main1.jpg" alt="">
                 <p class="main_text">本文テキストテキストテキストテキストテキストテキストテキストテキスト テキストテキストテキストテキストテキストテキストテキストテキストテキスト テキストテキストテキストテキストテキストテキストテキストテキストテキスト</p>
                 <p class="main readmore">READ MORE</p>
             </article>
@@ -61,7 +69,7 @@
                     <li class="date">2020/01/01</li>
                     <li class="categoly">カテゴリー</li>
                 </ul>
-                <img src="#" alt="">
+                <img src="img/main2.jpg" alt="">
                 <p class="main_text">本文テキストテキストテキストテキストテキストテキストテキストテキスト テキストテキストテキストテキストテキストテキストテキストテキストテキスト テキストテキストテキストテキストテキストテキストテキストテキストテキスト</p>
                 <p class="main readmore">READ MORE</p>
             </article>
@@ -71,7 +79,7 @@
                     <li class="date">2020/01/01</li>
                     <li class="categoly">カテゴリー</li>
                 </ul>
-                <img src="#" alt="">
+                <img src="img/main3.jpg" alt="">
                 <p class="main_text">本文テキストテキストテキストテキストテキストテキストテキストテキスト テキストテキストテキストテキストテキストテキストテキストテキストテキスト テキストテキストテキストテキストテキストテキストテキストテキストテキスト</p>
                 <p class="main readmore">READ MORE</p>
             </article>
@@ -79,7 +87,7 @@
         <aside>
             <div class="aside_container">
                 <section class="profile">
-                    <img class="author_pic" src="#"" alt="">
+                    <img class="author_pic" src="img/author.jpg" alt="">
                     <h3 class="author">Name Name</h3>
                     <p>プロフィールテキストテキストテキストテキストテキストテキストテキスト テキストテキストテキストテキストテキストテキストテキストテキストテキスト テキストテキストテキストテキストテキストテキストテキストテキストテキスト</p>
                 </section>
@@ -148,7 +156,7 @@
                 </ul>
             </section>
             <section class="twitter">
-                <a href=""></a>
+                <a class="twitter-timeline" href="https://twitter.com/TwitterJP?ref_src=twsrc%5Etfw">Tweets by TwitterJP</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
             </section>
         </div>
         <p class="copywrite"></p>
