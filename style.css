@@ -28,7 +28,7 @@ img {
 }
 
 .container {
-    width: 1200px;
+    max-width: 1200px;
     padding: 0 16px;
     margin: 0 auto;
 }
@@ -61,8 +61,8 @@ img {
 }
 /* header */
 header {
-    position: fixed;
     width: 100%;
+    position: fixed;
     z-index: 999;
     background-color: #fff;
 }
@@ -85,7 +85,6 @@ nav a{
 }
 
 nav ul {
-    width: 100%;   
     display: flex;
     justify-content: flex-start;
     align-items: center;
@@ -117,7 +116,7 @@ nav li{
     display: flex;
     margin: 0 auto;
     justify-content: space-between;
-    width: 1200px;
+    max-width: 1200px;
     padding: 0 16px;
     margin-bottom: 60px;
 }
@@ -281,3 +280,42 @@ footer {
     padding: 10px 0;
 }
 
+/* SP */
+@media screen and (max-width: 767px) {
+    header nav {
+        overflow-y: scroll;
+    }
+
+    .pickup > .container {
+        flex-direction: column;
+    }
+
+    .pickup article {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+
+    .main_container {
+        flex-direction: column;
+    }
+
+    main {
+        width: 100%;
+    }
+
+    .aside_container {
+        width: 100%;
+        padding: 0;
+    }
+
+    .content {
+        flex-direction: column;
+    }
+
+    .content section {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+
+
+}
